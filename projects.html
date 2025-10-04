@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nitaq — Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Nitaq home">
+          <span class="brand-text">Nitaq</span>
+          <img class="logo-img" src="assets/img/nitaq-logo.png" alt="Nitaq" />
+        </a>
+        <nav class="nav" id="mainNav">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="company.html">Company</a>
+          <a href="contact.html" class="btn btn--primary">Contact</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container" style="padding: 36px 0 60px;">
+      <p class="eyebrow">Projects</p>
+      <h1>Work that drives measurable outcomes</h1>
+      <p class="muted">Selected case studies across e‑commerce, finance, telecom, and public sector.</p>
+
+      <div class="badges" style="margin: 12px 0;">
+        <button class="badge" data-filter="all">All</button>
+        <button class="badge" data-filter="ecom">E‑commerce</button>
+        <button class="badge" data-filter="finance">Finance</button>
+        <button class="badge" data-filter="telecom">Telecom</button>
+        <button class="badge" data-filter="public">Public</button>
+      </div>
+
+      <div class="project-grid" style="margin-top: 12px;">
+        <a id="kfc" class="project-card" href="pages/projects/kfc.html">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1600&auto=format&fit=crop" alt="Omnichannel" />
+          <div class="project-card__body">
+            <h3>Global QSR — Omnichannel Experience</h3>
+            <p>Unified app, web, and kiosk journeys with analytics foundation.</p>
+          </div>
+        </a>
+        <a id="ecom" class="project-card" data-tags="ecom" href="pages/projects/ecommerce-app.html">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1600&auto=format&fit=crop" alt="eCommerce" />
+          <div class="project-card__body">
+            <h3>Footwear Retail — Mobile App</h3>
+            <p>Personalization and performance to maximize LTV at scale.</p>
+          </div>
+        </a>
+        <a id="bank" class="project-card" data-tags="finance" href="pages/projects/bank.html">
+          <img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1600&auto=format&fit=crop" alt="Banking" />
+          <div class="project-card__body">
+            <h3>Banking — Mobile Platform</h3>
+            <p>Intuitive, secure, and accessible app used by millions.</p>
+          </div>
+        </a>
+        <a class="project-card" data-tags="telecom" href="pages/projects/telco.html">
+          <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?q=80&w=1600&auto=format&fit=crop" alt="Telecom" />
+          <div class="project-card__body">
+            <h3>Telecom — Self‑Care Platform</h3>
+            <p>Digitized journeys to reduce calls and boost NPS.</p>
+          </div>
+        </a>
+        <a class="project-card" data-tags="public" href="pages/projects/public-sector.html">
+          <img src="https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=1600&auto=format&fit=crop" alt="Public sector" />
+          <div class="project-card__body">
+            <h3>Public Sector — Citizen Services</h3>
+            <p>Modern portals increasing transparency and efficiency.</p>
+          </div>
+        </a>
+        <a class="project-card" data-tags="analytics" href="pages/projects/analytics.html">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" alt="Analytics" />
+          <div class="project-card__body">
+            <h3>Analytics — Growth Program</h3>
+            <p>Experimentation and attribution for compounding gains.</p>
+          </div>
+        </a>
+        <a class="project-card" data-tags="ecom" href="pages/projects/marketplace.html">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1600&auto=format&fit=crop" alt="Retail" />
+          <div class="project-card__body">
+            <h3>Marketplace — Web Revamp</h3>
+            <p>Performance and UX uplift for revenue‑critical flows.</p>
+          </div>
+        </a>
+        <a class="project-card" data-tags="finance" href="pages/projects/fintech.html">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600&auto=format&fit=crop" alt="Finance" />
+          <div class="project-card__body">
+            <h3>Fintech — Onboarding</h3>
+            <p>Friction‑free KYC with measurable conversion gains.</p>
+          </div>
+        </a>
+        <a class="project-card" data-tags="telecom">
+          <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" alt="Telecom" />
+          <div class="project-card__body">
+            <h3>Telco — App Growth</h3>
+            <p>Feature adoption program and push messaging strategy.</p>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="logo" aria-label="Nitaq home">
+            <span class="brand-text">Nitaq</span>
+            <img class="footer-logo-img" src="assets/img/nitaq-logo.png" alt="Nitaq" />
+          </a>
+          <p class="muted">Creating meaningful digital experiences since 2025.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="company.html">Company</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@nitaq.studio">hello@nitaq.studio</a>
+          <p class="muted small">Inspired by structure from <a href="https://flyingbisons.com/mena" target="_blank" rel="noopener">flyingbisons.com/mena</a></p>
+        </div>
+      </div>
+      <div class="container fineprint">
+        <p>© 2025 Nitaq. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+
